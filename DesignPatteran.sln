@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-适配器模式", "02-�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Adapter", "src\ConsoleApp.Adapter\ConsoleApp.Adapter.csproj", "{B7F8F426-431B-40C5-A98C-6832FECEBD7A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-模板方法", "03-模板方法", "{DD6D689F-BBFE-4D24-AF8A-EBCE5C0EFAF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.TemplateMethod", "src\ConsoleApp.TemplateMethod\ConsoleApp.TemplateMethod.csproj", "{39ED2859-5115-4CA3-B181-0C22A8D4C594}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,10 @@ Global
 		{B7F8F426-431B-40C5-A98C-6832FECEBD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7F8F426-431B-40C5-A98C-6832FECEBD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7F8F426-431B-40C5-A98C-6832FECEBD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39ED2859-5115-4CA3-B181-0C22A8D4C594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39ED2859-5115-4CA3-B181-0C22A8D4C594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39ED2859-5115-4CA3-B181-0C22A8D4C594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39ED2859-5115-4CA3-B181-0C22A8D4C594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +44,8 @@ Global
 		{2D4C275E-1E4A-46F5-83C7-33783356812D} = {26DE3BA1-9E4E-4DE2-9BA7-6D12031DD203}
 		{1D17444F-DB74-4CEF-9177-FD8C1749A4A7} = {26DE3BA1-9E4E-4DE2-9BA7-6D12031DD203}
 		{B7F8F426-431B-40C5-A98C-6832FECEBD7A} = {1D17444F-DB74-4CEF-9177-FD8C1749A4A7}
+		{DD6D689F-BBFE-4D24-AF8A-EBCE5C0EFAF2} = {26DE3BA1-9E4E-4DE2-9BA7-6D12031DD203}
+		{39ED2859-5115-4CA3-B181-0C22A8D4C594} = {DD6D689F-BBFE-4D24-AF8A-EBCE5C0EFAF2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21675196-3A6C-475F-A9A3-3BA72FA405B7}
