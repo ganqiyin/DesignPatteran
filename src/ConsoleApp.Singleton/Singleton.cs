@@ -47,7 +47,7 @@ namespace ConsoleApp.Singleton
         }
 
         /// <summary>
-        /// 双重验证的线程安全实现 
+        /// 双重验证的线程安全实现 【推荐】
         /// 缺点：无法在Java中工作。（具体原因可以见原文，这边没怎么理解）
         /// </summary>
         public static Singleton Instance
