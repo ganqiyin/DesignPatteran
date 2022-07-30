@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-工厂方法模式", "04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.FactoryMethod", "src\ConsoleApp.FactoryMethod\ConsoleApp.FactoryMethod.csproj", "{99069575-F732-46EE-8D7E-9AD507BE211F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-单例模式", "05-单例模式", "{3DB9BE17-86BF-41DF-A845-644B50A91582}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Singleton", "src\ConsoleApp.Singleton\ConsoleApp.Singleton.csproj", "{5EDBE5CD-9A7D-4892-812F-9B77D60F4E63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{99069575-F732-46EE-8D7E-9AD507BE211F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99069575-F732-46EE-8D7E-9AD507BE211F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99069575-F732-46EE-8D7E-9AD507BE211F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EDBE5CD-9A7D-4892-812F-9B77D60F4E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EDBE5CD-9A7D-4892-812F-9B77D60F4E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EDBE5CD-9A7D-4892-812F-9B77D60F4E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EDBE5CD-9A7D-4892-812F-9B77D60F4E63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +64,8 @@ Global
 		{39ED2859-5115-4CA3-B181-0C22A8D4C594} = {DD6D689F-BBFE-4D24-AF8A-EBCE5C0EFAF2}
 		{1FE877F9-B732-4AEF-A6C9-DE972E277039} = {26DE3BA1-9E4E-4DE2-9BA7-6D12031DD203}
 		{99069575-F732-46EE-8D7E-9AD507BE211F} = {1FE877F9-B732-4AEF-A6C9-DE972E277039}
+		{3DB9BE17-86BF-41DF-A845-644B50A91582} = {26DE3BA1-9E4E-4DE2-9BA7-6D12031DD203}
+		{5EDBE5CD-9A7D-4892-812F-9B77D60F4E63} = {3DB9BE17-86BF-41DF-A845-644B50A91582}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21675196-3A6C-475F-A9A3-3BA72FA405B7}
