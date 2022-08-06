@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-结构型", "2-结构型"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-行为型", "3-行为型", "{D3A589E7-013C-4A7A-934D-4E3A8E257D5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Prototype", "src\ConsoleApp.Prototype\ConsoleApp.Prototype.csproj", "{98258222-7817-4700-B158-40DE1ADA8E36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{5EDBE5CD-9A7D-4892-812F-9B77D60F4E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EDBE5CD-9A7D-4892-812F-9B77D60F4E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EDBE5CD-9A7D-4892-812F-9B77D60F4E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98258222-7817-4700-B158-40DE1ADA8E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98258222-7817-4700-B158-40DE1ADA8E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98258222-7817-4700-B158-40DE1ADA8E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98258222-7817-4700-B158-40DE1ADA8E36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{FB4EEBDA-0344-434F-87F0-E1DCB2BE9EBA} = {26DE3BA1-9E4E-4DE2-9BA7-6D12031DD203}
 		{3951AB3F-4529-46AA-A60F-DA4DE5FE119B} = {26DE3BA1-9E4E-4DE2-9BA7-6D12031DD203}
 		{D3A589E7-013C-4A7A-934D-4E3A8E257D5A} = {26DE3BA1-9E4E-4DE2-9BA7-6D12031DD203}
+		{98258222-7817-4700-B158-40DE1ADA8E36} = {3CADB21C-3D0D-43A8-ACEC-4A2B3997A2CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21675196-3A6C-475F-A9A3-3BA72FA405B7}
