@@ -7,4 +7,10 @@ director.Construct();
 var txt = txtBuilder.GetResult();
 Console.WriteLine(txt);
 
+var htmlBilder = new HtmlBulder();
+ director = new Director(htmlBilder);
+director.Construct();
+txt = htmlBilder.GetResult();
+Console.WriteLine(txt);
+
 Console.ReadLine();

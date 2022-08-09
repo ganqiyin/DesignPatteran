@@ -10,28 +10,51 @@ namespace ConsoleApp.Builder
     {
 
         private StringBuilder _sb = new StringBuilder();
-          
+        private string _fileName = "";
+
         public override void MakeTitle(string title)
         {
-            throw new NotImplementedException();
+            _fileName = String.Format("{0}.html", title);
+            _sb.Append("<html>")
+                .Append("<head>")
+                .Append("<title>")
+                .Append(title)
+                .Append("</title>")
+                .Append("</head>");
+            _sb.Append("<body>")
+                 .AppendFormat("<h1>{0}</h1>", title);
         }
+
         public override void MakeContent(string content)
         {
-            throw new NotImplementedException();
+            _sb.AppendFormat("<p>{0}</p>", content);
         }
 
         public override void MakeItems(string[] items)
         {
-            throw new NotImplementedException();
+            _sb.Append("<ul>");
+            foreach (string item in items)
+            {
+                _sb.AppendFormat("<li>{0}</li>", item);
+            }
+            _sb.Append("</ul>");
         }
         public override void Close()
         {
-            throw new NotImplementedException();
+            _sb.Append("</body>").Append("</html>");
+            var dir = AppDomain.CurrentDomain.BaseDirectory;
+            var filepath = Path.Combine(dir, _fileName);
+            using (var fs = File.Create(filepath))
+            {
+                byte[] info = new UTF8Encoding(true).GetBytes(_sb.ToString());
+                // Add some information to the file.
+                fs.Write(info, 0, info.Length);
+            }
         }
 
         public string GetResult()
         {
-            return _sb.ToString();
+            return _fileName;
         }
     }
 }
