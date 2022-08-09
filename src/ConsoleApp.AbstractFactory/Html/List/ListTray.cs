@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp.AbstractFactory.Html
+namespace ConsoleApp.AbstractFactory.Html.List
 {
     public class ListTray : Factory.Tray
     {

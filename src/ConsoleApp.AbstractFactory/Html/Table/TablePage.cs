@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp.AbstractFactory.Html
+namespace ConsoleApp.AbstractFactory.Html.Table
 {
-    public class ListPage : Factory.Page
+    public class TablePage : Factory.Page
     {
-        public ListPage(string title, string author)
+        public TablePage(string title, string author)
             : base(title, author) { }
 
         public override string MakeHtml()
@@ -18,12 +18,12 @@ namespace ConsoleApp.AbstractFactory.Html
                 .Append("</title></head>\n")
                 .Append("<body>\n")
                 .AppendFormat("<h1>{0}</h1>\n", Title)
-                .Append("<ul>\n");
+                .Append("<table width=\"80%\" border=\"3\">\n");
             foreach (var item in Items)
             {
-                sb.Append(item.MakeHtml());
+                sb.AppendFormat("<tr>{0}</tr>",item.MakeHtml());
             }
-            sb.Append("</ul>\n")
+            sb.Append("</table>\n")
                 .AppendFormat("<hr><address>{0}</address>", Author)
                 .Append("</body></html>");
             return sb.ToString();

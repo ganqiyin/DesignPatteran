@@ -5,23 +5,23 @@ using System.Text;
 using System.Threading.Tasks;
 using ConsoleApp.AbstractFactory.Factory;
 
-namespace ConsoleApp.AbstractFactory.Html
+namespace ConsoleApp.AbstractFactory.Html.Table
 {
-    public class ListFactory : Factory.Factory
+    public class TableFactory : Factory.Factory
     {
         public override Link CreateLink(string caption, string url)
         {
-            return new ListLink(caption, url);
+            return new TableLink(caption, url);
         }
 
         public override Page CreatePage(string title, string author)
         {
-            return new ListPage(title, author);
+            return new TablePage(title, author);
         }
 
         public override Tray CreateTray(string caption)
         {
-            return new ListTray(caption);
+            return new TableTray(caption);
         }
     }
 }
